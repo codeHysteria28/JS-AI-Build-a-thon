@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  margin: 20px;
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 2.5rem;
+  width: max-content;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+section p.description {
+  margin: 0.25rem 0 1rem 0;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.product {
+  width: 30%;
+  text-align: center;
+}
+
+.product svg {
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  margin-bottom: 0.5rem;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.product-subname {
+  font-size: 0.9rem;
+  margin-top: -0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1rem;
+}
+
+
+/* Icons simplified from sketch */
+/* Tent icons */
+.tent1 path,
+.tent2 path,
+.tent3 path,
+.backpack1 path,
+.backpack1 line,
+.backpack2 path,
+.backpack2 line,
+.backpack3 path,
+.backpack3 line,
+.clothing1 path,
+.clothing1 line,
+.clothing2 path,
+.clothing2 line,
+.clothing3 path,
+.clothing3 line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5;
+}
